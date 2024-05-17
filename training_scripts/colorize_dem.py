@@ -35,7 +35,7 @@ def colorize_depth_maps(
 
 
 if __name__ == '__main__':
-    dem_file = r'G:\Moon1129\testB\512_2560.tif'
+    dem_file = r'D:\。\周浩男\毕业设计\Pictures\mars_7424_15360_fake_B.tif'
     dem = Image.open(dem_file,)
     dem =torch.from_numpy( np.array(dem))
     print(dem.shape)
